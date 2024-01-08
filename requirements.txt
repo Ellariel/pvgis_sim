@@ -1,0 +1,7 @@
+arrow
+faas_cache_dict==0.2.7
+filelock==3.6.0
+numpy==1.26.1
+pandas==2.1.2
+Requests==2.31.0
+tqdm==4.66.1
