@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mosaik-pv-3"
+version = "0.1.0"
+description = "PVGIS Simulator for Mosaik"
+authors = ["Danila Valko <mosaik@offis.de>"]
+license = "LICENSE"
+readme = ["README.rst", "CHANGELOG", "AUTHORS.txt"]
+packages = [{include = "mosaik_components"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mosaik-api-v3 = "^3.0.7"
+numpy = "^1.25.2"
+arrow = "^1.3.0"
+faas_cache_dict = "^0.2.7"
+filelock = "^3.6.0"
+pandas = "^2.1.2"
+Requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

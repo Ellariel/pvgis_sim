@@ -1,0 +1,6 @@
+*.pyc
+results.csv
+__pycache__/
+tests/__pycache__/
+demo/__pycache__/
+mosaik_components/pv/__pycache__/
