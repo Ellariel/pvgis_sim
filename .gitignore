@@ -1,4 +1,6 @@
 *.pyc
+*.faas
+*.old
 results.csv
 __pycache__/
 tests/__pycache__/
